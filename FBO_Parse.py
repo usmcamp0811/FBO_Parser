@@ -33,5 +33,6 @@ def fbo_parse(fbo_file):
 
     return data
 
-data = fbo_parse('FBOFeed20020129')
-print(data)
+if __name__ == "__main__":
+    data = fbo_parse('FBOFeed20020129')
+    print(data)
