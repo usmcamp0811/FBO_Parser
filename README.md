@@ -1,12 +1,8 @@
 # FBO Parser
 
 A parser for [fbo.gov's](https://www.fbo.gov/) daily FTP dumps.
-
-## Usage
-
-1. Grab the file(s) from `ftp://ftp.fbo.gov`
-2. `var parser = require("index")`
-3. `parser.parse(string)` returns valid JSON
+The javascript parser code is taken from https://github.com/presidential-innovation-fellows/fbo-parser
+I wrote the python functions to convert the parsed data into a pandas dataframe.
 
 ## Example
 
